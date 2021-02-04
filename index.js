@@ -14,10 +14,10 @@ app.set('view engine', 'html');
 // const mysqlpass = process.env.DB_PASSWORD;
 // const mysqldb = process.env.DB_NAME;
 
-const mysqlhost = 'database-instace.cclmyblmrgmi.us-east-1.rds.amazonaws.com';
-const mysqluser = 'root';
+const mysqlhost = 'thehub-healthcheck-dev-us-east-1-rds.c1hxvlats6xs.us-east-1.rds.amazonaws.com';
+const mysqluser = 'admin';
 const mysqlpass = 'password';
-const mysqldb = 'bluegreen';
+const mysqldb = 'healthcheck_db';
 
 console.log(mysqlhost)
 console.log(mysqluser)
