@@ -65,7 +65,7 @@ app.get("/home",(request, response)=>{
 
 //health
 app.get("/health",(request, response)=>{
-  var queryText = "select * from blue";
+  var queryText = "select * from green";
   con.query(queryText,(err, result)=>{
       if(response.statusCode==result[0].statuscode)
           {
